@@ -4,6 +4,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println( " ");
+        System.out.println("*************************** Programowanie 2 IV sem EiT NS LAB 7 ********************************");
+        System.out.println( " ");
+        System.out.println( " DZIALANIE PROGRAMU ");
+        System.out.println( " ");
+
         Dog.DogBuilder dogBuilder = Dog.DogBuilder.aDog();
         Dog Reksio = dogBuilder.withName("Reksio").withAge(2).withType("Cane Corso").build();
         Dog Lady = dogBuilder.withName("Lady").withAge(4).withToys(Arrays.asList("kaczka", "drapak")).build();
